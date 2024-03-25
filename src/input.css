@@ -3,12 +3,13 @@
 
 
 .button{
-    @apply bg-blue-500 hover:bg-blue-400 transition-colors p-2 text-white font-semibold;
+    @apply bg-gray-600 hover:bg-gray-800 transition-colors p-2 text-white font-semibold;
 }
 
 .profileImg{
     @apply h-28 w-28 rounded-full object-cover object-center;
 }
+
 
 
 

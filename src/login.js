@@ -100,8 +100,7 @@ function recuperando() {
         recuperar.classList.add('bg-red-200', 'rounded-sm')
         recuperar.innerHTML = `Debes llenar el campo usuario
         
-        <a href="login.html" class="hover:underline font-normal" >Volver</a>
-            
+          
         `;
     }
 
