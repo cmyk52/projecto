@@ -9,7 +9,7 @@
       "etnia": "Caucásica",
       "género": "Hombre",
       "fecha_nacimiento": "1980-01-01",
-      "imagen": "https://www.example.com/images/juan-perez.jpg",
+      "imagen": "../assets/portrait/JuanPerez.webp",
       "personal_a_cargo": [2, 3],
       "usuario": "juan.perez",
       "contrasena": "123456"
@@ -24,7 +24,7 @@
       "etnia": "Mestiza",
       "género": "Mujer",
       "fecha_nacimiento": "1985-05-05",
-      "imagen": "https://www.example.com/images/maria-gonzalez.jpg",
+      "imagen": "../assets/portrait/MariaGonzalez.webp",
       "personal_a_cargo": [],
       "usuario": "maria.gonzalez",
       "contrasena": "abcdef"
@@ -39,7 +39,7 @@
       "etnia": "Mapuche",
       "género": "Hombre",
       "fecha_nacimiento": "1990-10-10",
-      "imagen": "https://www.example.com/images/pedro-lopez.jpg",
+      "imagen": "../assets/portrait/PedroLopez.webp",
       "personal_a_cargo": [],
       "usuario": "pedro.lopez",
       "contrasena": "ghijkl"
@@ -54,7 +54,7 @@
       "etnia": "Italiana",
       "género": "Mujer",
       "fecha_nacimiento": "1995-03-03",
-      "imagen": "https://www.example.com/images/ana-martinez.jpg",
+      "imagen": "../assets/portrait/AnaMartinez.webp",
       "personal_a_cargo": [],
       "usuario": "ana.martinez",
       "contrasena": "mnopqr"
@@ -69,7 +69,7 @@
       "etnia": "Afrodescendiente",
       "género": "Hombre",
       "fecha_nacimiento": "1988-08-08",
-      "imagen": "https://www.example.com/images/luis-garcia.jpg",
+      "imagen": "../assets/portrait/LuisGarcia.webp",
       "personal_a_cargo": [],
       "usuario": "luis.garcia",
       "contrasena": "stuvwxy"
@@ -85,7 +85,7 @@
         "etnia": "Quechua",
         "género": "Mujer",
         "fecha_nacimiento": "1975-07-07",
-        "imagen": "https://www.example.com/images/sofia-ramirez.jpg",
+        "imagen": "../assets/portrait/SofiaRamirez.webp",
         "personal_a_cargo": [7, 8],
         "usuario": "sofia.ramirez",
         "contrasena": "12345678"
@@ -100,7 +100,7 @@
         "etnia": "Mestiza",
         "género": "Hombre",
         "fecha_nacimiento": "2000-01-01",
-        "imagen": "https://www.example.com/images/david-torres.",
+        "imagen": "../assets/portrait/DavidTorres.webp",
         "personal_a_cargo": [],
         "usuario": "david.torres",
         "contrasena": "zxcvbnm"
@@ -115,7 +115,7 @@
         "etnia": "Indígena",
         "género": "Mujer",
         "fecha_nacimiento": "2002-04-04",
-        "imagen": "https://www.example.com/images/camila-diaz.jpg",
+        "imagen": "../assets/portrait/CamilaDiaz.webp",
         "personal_a_cargo": [],
         "usuario": "camila.diaz",
         "contrasena": "qazwsxedc"
@@ -130,7 +130,7 @@
         "etnia": "Mulata",
         "género": "Hombre",
         "fecha_nacimiento": "1992-12-12",
-        "imagen": "https://www.example.com/images/santiago-castro.jpg",
+        "imagen": "../assets/portrait/SantiagoCastro.webp",
         "personal_a_cargo": [],
         "usuario": "santiago.castro",
         "contrasena": "1234567890"
@@ -145,7 +145,7 @@
         "etnia": "Europea",
         "género": "Mujer",
         "fecha_nacimiento": "1983-06-06",
-        "imagen": "https://www.example.com/images/isabella-fernandez.jpg",
+        "imagen": "../assets/portrait/IsabellaFernandez.webp",
         "personal_a_cargo": [4],
         "usuario": "isabella.fernandez",
         "contrasena": "abcdefghi"
