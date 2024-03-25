@@ -6,19 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="./login.js" defer></script>
   <link href="./output.css" rel="stylesheet" />
+  
   <title>Union</title>
 </head>
 
-<body class="bg-slate-600">
+<body class="bg-slate-600 ">
 
-  <div class="flex flex-col justify-center h-screen">
+  <form class="flex flex-col justify-center h-screen" onsubmit="return false">
     <div id="formulario"  class="flex flex-col gap-1 p-4 bg-gray-100 rounded shadow-md *:rounded-sm m-auto max-w-[400px] w-[95%] text-gray-700">
-      <h1 class="text-center text-2xl font-bold my-6 ">
+      <h2 class="text-center text-2xl font-bold my-6 ">
         Entra a tu cuenta
-      </h1>
+      </h2>
       <hr class="pb-3">
       <input id="usuario" class="p-2 " type="text" placeholder="Usuario" />
-
+      <span id="usuarioAlert" class="text-red-500 text-sm px-1"></span>
 
       <input id="contraseña" class="p-2" type="password" placeholder="Contraseña" />
 
@@ -40,7 +41,7 @@
 
 
       <input type="submit" id="ingresar" value="Ingresar"
-        class="bg-blue-500 hover:bg-blue-400 transition-colors p-2 text-white font-semibold mt-2">
+        class="button mt-2">
       </input>
 
         <span id="recuperar" class="flex flex-col align-middle gap-1 py-2 h-14 text-center text-sm cursor-pointer hover:underline mb-2 font-semibold">Recupera tu clave Web</span>
@@ -48,7 +49,7 @@
 
     </div>  
   </div>
-  </div>
+  </form>
 
 
 </body>
