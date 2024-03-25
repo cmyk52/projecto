@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="./src/login.js" defer></script>
   <link href="./src/output.css" rel="stylesheet" />
 
   
@@ -13,7 +12,7 @@
 
 <body class="bg-gray-700">
 <header class=" text-white">
-  <nav class=" bg-slate-500 h-11 px-4 md:px-16 flex flex-row flex-nowrap justify-between items-center text-xl">
+  <nav class=" bg-slate-500 h-11 px-4 md:px-32 flex flex-row flex-nowrap justify-between items-center text-xl">
 
     <a href="index.html"><h2 class="font-bold">Union</h2></a>
 
@@ -21,7 +20,7 @@
     <ul class=" gap-4 hidden md:flex flex-row">
       <li><a href="#">link</a></li>
       <li><a href="#">link</a></li>
-      <li><a href="#">link</a></li>
+      <li><a href="#">Iniciar Sesión</a></li>
 
     </ul>
     <input type="checkbox" id="checkbox" class="hidden">
@@ -32,52 +31,13 @@
 
   </nav>
 
+      <section class="flex justify-center items-center px-3 h-[50vh]">
+        <div class="flex flex-col max-w-2xl gap-8">
+          <h1 class="text-5xl md:text-7xl font-bold text-center">¿Que es Union?</h1>
+          <h2 class="text-center">Es un Software Integral de Gestión de Personas que te permite atender todas las necesidades de tus colaboradores en una sola plataforma. Desde el pago de sus remuneraciones hasta su desarrollo profesional.</h2>
 
-
-      <section class="flex flex-col min-h-screen justify-center items-center">
-        <h1 class="text-5xl font-semibold">¿Que es Union?</h1>
-        <h2>Es un Software Integral de Gestión de Personas que te permite atender todas las necesidades de tus colaboradores en una sola plataforma. Desde el pago de sus remuneraciones hasta su desarrollo profesional.</h2>
-        
-        
-        <form class="flex flex-col justify-center" onsubmit="return false">
-    <div id="formulario"  class="flex flex-col gap-1 p-4 bg-gray-100 rounded shadow-md *:rounded-sm m-auto  min-w-[355px] max-w-[95%]  text-gray-700">
-      <h2 class="text-center text-2xl font-bold my-6 ">
-        Iniciar Sesión
-      </h2>
-      <hr class="pb-3">
-      <input id="usuario" class="p-2 " type="text" placeholder="Usuario" />
-      <span id="usuarioAlert" class="text-red-500 text-sm px-1"></span>
-
-      <input id="contraseña" class="p-2" type="password" placeholder="Contraseña" />
-
-      <div>
-
-      </div>
-
-      <div class="flex flex-row  gap-2 text-sm mb-4 justify-end">
-        <div>
-              <span class="text-sm cursor-pointer px-2" id="mostrar">
-                Mostrar contraseña
-              </span>
         </div>
-
-        
-
-        </span>
-      </div>
-
-
-      <input type="submit" id="ingresar" value="Ingresar"
-        class="button mt-2">
-      </input>
-
-        <span id="recuperar" class="flex flex-col align-middle gap-1 py-2 h-14 text-center text-sm cursor-pointer hover:underline mb-2 font-semibold">Recupera tu clave Web</span>
- 
-
-    </div>  
-  </div>
-        </form>
-    </section>
+        </section>
 </header>
 
 </body>
